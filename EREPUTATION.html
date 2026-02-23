@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cours : TIC & Digitalisation de la Communication</title>
+    <style>
+         :root {
+            --primary: #1a5276;
+            --secondary: #1e8449;
+            --accent: #d35400;
+            --bg: #f8f9f9;
+            --text: #2c3e50;
+            --white: #ffffff;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            color: var(--text);
+            background-color: var(--bg);
+            margin: 0;
+            padding: 0;
+        }
+        
+        header {
+            background: linear-gradient(135deg, var(--primary), #2980b9);
+            color: var(--white);
+            padding: 3rem 1rem;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        
+        .container {
+            max-width: 900px;
+            margin: 2rem auto;
+            padding: 0 1.5rem;
+        }
+        
+        .card {
+            background: var(--white);
+            padding: 2.5rem;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+            margin-bottom: 2.5rem;
+        }
+        
+        h1 {
+            margin: 0.5rem 0;
+            font-size: 2rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        
+        h2 {
+            color: var(--primary);
+            border-bottom: 3px solid var(--secondary);
+            padding-bottom: 0.5rem;
+            margin-top: 2rem;
+        }
+        
+        h3 {
+            color: var(--secondary);
+            margin-top: 1.5rem;
+        }
+        
+        .intro-box {
+            background: #ebf5fb;
+            border-left: 6px solid var(--primary);
+            padding: 1.5rem;
+            margin: 1.5rem 0;
+        }
+        
+        .example-case {
+            background: #fdf2e9;
+            border: 1px solid #e67e22;
+            padding: 1rem;
+            border-radius: 8px;
+            margin: 1rem 0;
+        }
+        
+        .protocole {
+            background: #e9f7ef;
+            padding: 1.5rem;
+            border-radius: 8px;
+            border: 1px solid var(--secondary);
+        }
+        
+        .quote {
+            font-size: 1.2rem;
+            font-style: italic;
+            text-align: center;
+            padding: 2rem;
+            color: var(--primary);
+            border-top: 1px solid #ddd;
+        }
+        
+        .footer-info {
+            background: #2c3e50;
+            color: white;
+            padding: 2rem;
+            text-align: center;
+            margin-top: 4rem;
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 1.5rem 0;
+        }
+        
+        th,
+        td {
+            border: 1px solid #dee2e6;
+            padding: 12px;
+            text-align: left;
+        }
+        
+        th {
+            background: #f2f4f4;
+            color: var(--primary);
+        }
+        
+        .badge {
+            background: var(--accent);
+            color: white;
+            padding: 4px 12px;
+            border-radius: 20px;
+            font-size: 0.8rem;
+            font-weight: bold;
+        }
+        
+        @media (max-width: 600px) {
+            .card {
+                padding: 1.5rem;
+            }
+            h1 {
+                font-size: 1.5rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <p>Université de Ngaoundéré - Faculté des Lettres et Sciences Humaines</p>
+        <h1>TIC & Digitalisation de la Communication</h1>
+        <p>Licence Professionnelle COM - 5ème Trimestre</p>
+    </header>
+
+    <div class="container">
+
+        <section class="card">
+            <h2>Introduction : Le numérique, un écosystème relationnel</h2>
+            <div class="intro-box">
+                <strong>Exemple concret :</strong> En 2023, la <strong>Camair-Co</strong> a subi une chute de 40% de ses ventes à cause d'avis négatifs sur Facebook concernant des retards[cite: 8]. Parallèlement, <strong>FlyZeJet</strong> a doublé sa
+                clientèle grâce aux recommandations positives sur WhatsApp et Facebook.
+            </div>
+            <p><strong>La leçon :</strong> L'e-réputation est une réalité économique qui influence directement la survie des organisations.</p>
+        </section>
+
+        <section class="card">
+            <h2>Partie 1 : L'e-réputation - Les fondements stratégiques</h2>
+
+            <h3>1.1 Définition opérationnelle </h3>
+            <p>L'e-réputation est la perception numérique collective d'une organisation, construite à travers:</p>
+            <ul>
+                <li><strong>Contenus publiés :</strong> Site web, réseaux sociaux.</li>
+                <li><strong>Contenus subis :</strong> Avis clients, commentaires.</li>
+                <li><strong>Contenus invisibles :</strong> Données indexées par les moteurs de recherche.</li>
+            </ul>
+
+            <div class="example-case">
+                <strong>Analogies :</strong>
+                <ul>
+                    <li>C'est une <strong>carte d'identité numérique</strong> : elle vous précède dans toute interaction.</li>
+                    <li>C'est un <strong>jardin</strong> : vous plantez (contenus), mais ne contrôlez pas totalement la pousse (interprétations).</li>
+                </ul>
+            </div>
+
+            <h3>1.2 Les piliers de l'e-réputation </h3>
+            <table>
+                <tr>
+                    <th>Pilier</th>
+                    <th>Exemple Contextuel</th>
+                </tr>
+                <tr>
+                    <td><strong>Visibilité</strong> </td>
+                    <td>Une PME de Ngaoundéré optimisant son SEO pour "boubous traditionnels".</td>
+                </tr>
+                <tr>
+                    <td><strong>Crédibilité</strong> </td>
+                    <td>Un laboratoire partageant ses certificats de qualité en ligne.</td>
+                </tr>
+                <tr>
+                    <td><strong>Influence</strong> </td>
+                    <td>Un restaurateur de Garoua répondant personnellement aux avis Facebook.</td>
+                </tr>
+            </table>
+
+            <h3>1.3 Outils de veille </h3>
+            <ul>
+                <li><strong>Google Alerts :</strong> Pour surveiller les mentions de base.</li>
+                <li><strong>Meltwater / Brandwatch :</strong> Pour les grandes structures.</li>
+                <li><strong>Technique manuelle :</strong> Recherche par hashtags locaux (#Ngaoundéré, #Cameroun) sur Twitter/X.</li>
+            </ul>
+        </section>
+
+        <section class="card">
+            <h2>Partie 2 : Stratégies proactives </h2>
+            <h3>2.1 Le contenu comme socle </h3>
+            <p>Appliquez la <strong>Règle des 4x20</strong> : 20% de promotion, 80% de contenu utile (conseils, tutoriels, histoires).</p>
+            <p><em>Exemple :</em> La Boulangerie Selecte à Yaoundé renforce la confiance en filmant la fabrication de son pain.</p>
+
+            <h3>2.2 Gérer une crise : Protocole en 5 étapes </h3>
+            <div class="protocole">
+                <ol>
+                    <li><strong>Détection rapide :</strong> Surveillance 24h/24.</li>
+                    <li><strong>Analyse :</strong> Distinguer le troll du client mécontent.</li>
+                    <li><strong>Réponse calibrée :</strong> Rester factuel (ex: infographie explicative d'une banque camerounaise en 2024).</li>
+                    <li><strong>Correction :</strong> S'excuser si l'erreur est interne.</li>
+                    <li><strong>Capitalisation :</strong> Améliorer le service après les critiques.</li>
+                </ol>
+            </div>
+        </section>
+
+        <section class="card">
+            <h2>Partie 3 : Campagnes digitales - De la théorie à l'action </h2>
+            <h3>3.1 Les 5 commandements </h3>
+            <ul>
+                <li><strong>Objectifs SMART :</strong> Ex: "+30% d'inscriptions en 3 mois".</li>
+                <li><strong>Cible hyper-segmentée :</strong> Ex: Femmes de 25-35 ans à Ngaoundéré via Facebook Ads.</li>
+                <li><strong>Contenu adapté :</strong> Instagram (visuel), LinkedIn (pro), WhatsApp (fidélisation).</li>
+                <li><strong>Budget intelligent :</strong> 70% création, 30% boost publicitaire.</li>
+                <li><strong>Mesure d'impact :</strong> KPI (engagement, conversion, sentiment).</li>
+            </ul>
+
+            <h3>3.2 Étude de cas - "Zéro Palu" au Cameroun </h3>
+            <p><strong>Stratégie :</strong> Influenceurs locaux (chefs traditionnels) + micro-contenus par SMS.</p>
+            <p><strong>Résultat :</strong> 2 millions de personnes touchées et +40% de demandes de moustiquaires.</p>
+        </section>
+
+        <section class="card">
+            <h2>Innovations & Atelier </h2>
+            <ul>
+                <li>Chatbots WhatsApp pour les FAQs locales.</li>
+                <li>Mix Radio communautaire + Facebook Live pour les zones reculées.</li>
+                <li>Réalité augmentée pour l'essayage de tissus (pagne).</li>
+            </ul>
+
+            <div style="border: 2px dashed var(--secondary); padding: 1.5rem; margin-top: 2rem;">
+                <span class="badge">ATELIER PRATIQUE</span>
+                <h3>"Le Client vs Le Troll" </h3>
+                <p><strong>Scénario :</strong> Un gâteau au manioc publié sur Facebook par une pâtisserie de Ngaoundéré.</p>
+                <p><strong>Utilisateur A :</strong> Critique sur le temps d'attente et la qualité (Client mécontent).</p>
+                <p><strong>Utilisateur B :</strong> Accusations de saleté et produits périmés (Troll).</p>
+                <p><em>Consigne : Appliquez le protocole de réponse sans agressivité.</em></p>
+            </div>
+        </section>
+
+        <div class="quote">
+            "Le digital n'est pas une mode, c'est le nouveau visage de la communication humaine. Maîtriser l'e-réputation, c'est maîtriser l'avenir de son organisation."
+        </div>
+    </div>
+
+    <div class="footer-info">
+        <p><strong>Monsieur ABOUBA Fadhil - MR DIGITAL</strong></p>
+        <p>Expert en stratégies digitales | CMO chez MUSS Digital</p>
+        <p><em>Références recommandées : David Fayon, L. Ngoa, Agence MUSS Digital.</em></p>
+    </div>
+
+</body>
+
+</html>
